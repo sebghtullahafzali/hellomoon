@@ -1,0 +1,72 @@
+body{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url("bag2.jpg");
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+/* element */
+  
+.let_space{
+    letter-spacing: 2px;
+}
+   
+.grid{
+    display: grid;
+    grid-gap: 2vmax;
+}
+
+/* element */
+
+
+form{
+    margin: 2vmax 10vmax;
+    padding:3vmax;
+}
+
+label{
+    font-size: 1.5vmax;
+}
+
+input{
+    background-color: transparent;
+    padding:1vmax;
+    font-size: 1.3vmax;
+    font color: white;
+    outline: none;
+}
+
+select{
+    padding:1vmax;
+    font-size: 1.3vmax;
+    border: 1px solid #dddddd;
+    outline: none;
+    letter-spacing: 3px;
+}
+
+option{
+    font-size: 1.5vmax;
+    letter-spacing: 3px;
+}
+
+.file_submit{
+  margin-top: 1vmax;
+  border: 1px solid whitesmoke;
+  outline: none;
+  background-color: transparent;
+  color: white;
+  font-display: white;
+  padding: 1vmax;
+  cursor: pointer;
+  transition: 0.3s;
+  letter-spacing: 3px;
+}
+
+.file_submit:hover{
+  background-color: transparent;
+  color: #55acee
+}
+.button{
+    position: left;
+    font-size: 120px;
+}
